@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/623512362/photo/romantic-couple-looking-at-eiffel-tower-in-paris.jpg?s=612x612&w=0&k=20&c=3MlFxhHTjdePoOrQcW_aj-SRXjdt-Otyh-vsWBxvs7U=");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background-color: rgba(199, 56, 56, 0.5);
+    transform: translate(-50%, -50% );
+    padding: 5px;
+    box-shadow: 5px 10px 20px #ffbbbb;
+    border-radius: 10px;
+}
+h1, h2{
+    font-weight: 200;
+    color: #df1b1b;
+    font-family: fantasy;
+}
+#popup {
+    display: none;
+    position: fixed;
+    top: 200px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.51);
+    /* padding: 20px; */
+    border: 2px solid #ccc;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px #120c0c;
+}
+button{
+    background-color: #ffbbbb;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+#submit{
+    background-color: #df1b1b;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input{
+    border-radius: 5px;
+}
+img{
+    width: 200px;
+    border-radius: 20px;
+}
+

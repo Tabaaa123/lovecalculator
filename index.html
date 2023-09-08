@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="love.css">
+    <title>Love Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="loveCalculatorForm">
+            <h1>Love Calculator</h1>
+            <p> <i> "Love is not just looking at each other; </i></p>
+            <p> <i>it's looking in the same direction. "</i> - Antoine Exupéry </p>
+            <img src="https://i.pinimg.com/originals/de/d5/20/ded520423e25c811bbff951c61a337f2.gif" alt="coupele">
+            <br>
+            <label for="name1">Kindly enter your name </label>
+            <br>
+            <input type="text" id="name1">
+            <br>
+            <label for="name2">Kindly enter your partner's name</label>
+            <br>
+            <input type="text" id="name2">
+            <br>
+            <button id="submit" type="submit"> Calculate </button>
+        </form>
+    
+        <div id="popup" style="display: none;">
+            <p id="loveResult"></p>
+            <button id="closePopup">Close</button>
+        </div>
+    
+        <audio id="audio-love">
+            <source src="audio/" type="audio/mpeg">
+        </audio>    
+    </div>
+    <script src="love.js"></script>
+</body>
+</html>
